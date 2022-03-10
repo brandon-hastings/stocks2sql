@@ -1,0 +1,22 @@
+name: stocks2sql
+
+channels:
+    - anaconda
+    - conda-forge
+    - defaults
+
+dependencies:
+    - python=3.7.10
+    - git
+    - pip
+    - pandas
+    - tk=8.6.10
+    - six=1.16.0
+
+      pip:
+        - bs4
+        - mysql-connector-python
+        - requests-html
+        - selenium
+        - tqdm
+       - git+https://github.com/brandon-hastings/stocks2sql.git
